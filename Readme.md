@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Павел Агудин](https://up.htmlacademy.ru/htmlcss/29/user/1141703).
-* Наставник: [Сергей Остаповец] (https://htmlacademy.ru/profile/id288419).
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/id288419).
 
 ---
 
