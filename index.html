@@ -1,109 +1,134 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Седона</title>
-  </head>
-  <body>
- <header>
-  <nav>
-    <a>
-      <img src="https://via.placeholder.com/138x70" alt="Логотип Седона">
-   </a>
-    <ul>
-      <li><a href="">Информация</a></li>
-      <li><a href="">Фото и видео</a></li>
-      <li><a href="">Карта штата</a></li>
-      <li><a href="hotels.html">Гостиницы</a></li>
-    </ul>
-  </nav>
- </header>
- <main>
-   <h1>Город Седона</h1>
-   <section>
-     <h2>Добро пожаловать в Седону</h2>
-     <img src="https://via.placeholder.com/1200x509" alt="Фоновая фотография">
-   </section>
-   <section>
-    <h3>Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>
-    <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-    <ul>
-      <li>
-        <h3>Седона - настоящий городок</h3>
-        <span>-№1-</span>
-        <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-        <img src="https://via.placeholder.com/800x256" alt="Городок">
-      </li>
-        <li>
-          <ul>
-            <li>
-              <h3>Жильё</h3>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-            </li>
-            <li>
-              <h3>Еда</h3>
-              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-            </li>
-            <li>
-              <h3>Сувениры</h3>
-              <p>Не только китайского, но и местного производства!</p>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Седона</title>
+</head>
+
+<body class="page-body">
+  <header class="main-header">
+    <a href="#" class="main-header-logo">
+      <img src="https://via.placeholder.com/138x70" width="135" height="70" alt="Логотип Седона">
+    </a>
+    <nav class="main-navigation">
+      <ul class="site-navigation">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="hotels.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <!-- Скрытый заголовок -->
+    <h1 class="visability-hidden">Город Седона</h1>
+    <section class="background">
+      <!-- Скрытый заголовок -->
+      <h2 class="visability-hidden">Добро пожаловать в Седону</h2>
+      <img src="https://via.placeholder.com/1200x509" width="1200" height="509" alt="Фоновая фотография">
+    </section>
+    <section class="features">
+      <h3>Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>
+      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      <div class="features-list">
+        <div class="feature-item">
+          <h3>Седона - настоящий городок</h3>
+          <span>-№1-</span>
+          <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+          <div class="feature-photo-city">
+            <img src="https://via.placeholder.com/800x256" width="800" height="256" alt="Городок">
+          </div>
+        </div>
+        <ul class="city-features">
+          <li class="city-item">
+            <h3>Жильё</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li class="city-item">
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="city-item">
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
           </li>
         </ul>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/800x256" alt="Мост дьявола">
-        <h3>Там есть Мост дьявола</h3>
-        <span>-№2-</span>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-      </li>
-      <li>
-        <h3>небольшая площадь</h3>
-        <span>-№3-</span>
-        <p>все достопримечательности находятся очень близко</p>
-      </li>
-      <li>
-        <h3>красивая дорога</h3>
-        <span>-№4-</span>
-        <p>ехать в седону из лас-вегаса совсем не скучно!</p>
-      </li>
-      <li>
-        <h3>мало туристов</h3>
-        <span>-№5-</span>
-        <p>большинство едет в гранд каньон и толпится там</p>
-      </li>
-    </ul>
+        <div class="feature-item">
+          <div class="feature-photo-brige">
+            <img src="https://via.placeholder.com/800x256" width="800" height="256" alt="Мост дьявола">
+          </div>
+          <h3>Там есть Мост дьявола</h3>
+          <span>-№2-</span>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </div>
+        <ul class="city-features">
+          <li class="city-item">
+            <h3>небольшая площадь</h3>
+            <span>-№3-</span>
+            <p>все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="city-item">
+            <h3>красивая дорога</h3>
+            <span>-№4-</span>
+            <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+          </li>
+          <li class="city-item">
+            <h3>мало туристов</h3>
+            <span>-№5-</span>
+            <p>большинство едет в гранд каньон и толпится там</p>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section>
-		<h2>Заинтересовались?</h2>
-		<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
-		<img src="https://via.placeholder.com/1199x594" alt="Карта Седоны">
-	</section>
- </main>
- <footer>
-   <section>
-     <p>#visitSEDONA</p>
-     <p>ТЕЛ: +7(495) 666-01</p>
-   </section>
-   <section>
-    <ul>
-     <li>
-      <a href="">Twitter</a>
-     </li>
-     <li>
-      <a href="">Facebook</a>
-     </li>
-     <li>
-      <a href="">Youtube</a>
-     </li>
-    </ul>
-   </section>
-   <section>
-    <p>Website by
-     <a href="">
-      <img src="https://via.placeholder.com/115x41" alt="HTML Academy">
-     </a>
-    </p>
-   </section>
- </footer>
+    <section class="booking">
+      <h2>Заинтересовались?</h2>
+      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
+      <!-- Будет форма для поиска гостиницы -->
+      <div class="map-foto">
+        <img src="https://via.placeholder.com/1199x594" width="1199" height="594" alt="Карта Седоны">
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer main-footer">
+    <section class="footer-contacts">
+      <!-- Скрытый заголовок -->
+      <h3 class="visability-hidden">Номер телефона</h3>
+      <p>#visitSEDONA</p>
+      <p>
+        ТЕЛ: <a href="tel:+749566601">+7(495) 666-01</a>
+      </p>
+    </section>
+    <section class="footer-social">
+      <!-- Скрытый заголовок -->
+      <h3 class="visability-hidden">Соцсети</h3>
+      <ul>
+        <li>
+          <a href="#" class="social-button">Twitter</a>
+        </li>
+        <li>
+          <a href="#" class="social-button">Facebook</a>
+        </li>
+        <li>
+          <a href="#" class="social-button">Youtube</a>
+        </li>
+      </ul>
+    </section>
+    <section class="footer-copyright">
+      <!-- Скрытый заголовок -->
+      <h3 class="visability-hidden">Копирайт</h3>
+      <p>Website by</p>
+      <a href="https://htmlacademy.ru/intensive/htmlcss">
+        <div class="academy-logo">
+          <img src="https://via.placeholder.com/115x41" width="115" height="41" alt="HTML Academy">
+        </div>
+      </a>
+
+    </section>
+  </footer>
 </body>
+
 </html>
